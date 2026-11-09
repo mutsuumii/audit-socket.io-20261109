@@ -1,0 +1,36 @@
+{
+  "source_repo": "socketio/socket.io",
+  "source_url": "https://github.com/socketio/socket.io",
+  "audit_date": "2026-11-09T10:04:25.489675",
+  "scanner_version": "1.3.0",
+  "findings_count": 3,
+  "severity_breakdown": {
+    "HIGH": 3
+  },
+  "findings": [
+    {
+      "id": "JS-PROTO-001",
+      "name": "Prototype pollution",
+      "severity": "HIGH",
+      "cwe": "CWE-1321",
+      "file": "packages/socket.io-component-emitter/test/emitter.js",
+      "line": 8
+    },
+    {
+      "id": "JS-PROTO-001",
+      "name": "Prototype pollution",
+      "severity": "HIGH",
+      "cwe": "CWE-1321",
+      "file": "packages/socket.io-component-emitter/test/emitter.js",
+      "line": 49
+    },
+    {
+      "id": "JS-PROTO-001",
+      "name": "Prototype pollution",
+      "severity": "HIGH",
+      "cwe": "CWE-1321",
+      "file": "packages/socket.io-component-emitter/test/emitter.js",
+      "line": 54
+    }
+  ]
+}
